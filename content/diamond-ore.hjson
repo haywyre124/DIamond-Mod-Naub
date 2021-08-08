@@ -1,3 +1,2 @@
-type : ore
-name : Diamond Ore
-hardness : 2.0
+type : oreBlock
+itemDrop : diamond
