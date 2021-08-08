@@ -1,0 +1,5 @@
+type: material
+name: Diamond
+description: An rough, uncut diamond made over millions of years.
+cost: 2.5
+color: b9f2ff
