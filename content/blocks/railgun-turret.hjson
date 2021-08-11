@@ -9,13 +9,15 @@ shootShake: 4
 recoilAmount: 4
 shots: 1
 reload: 12
-range: 5000
+range: 675
+ammoPerShot: 3
+buildVisibility: true
 inaccuracy: 0
 rotateSpeed: 3
 ammo: {
   diamond: {
     speed: 5
-    damage: 4000
+    damage: 1250
     bulletWidth: 5
     bulletHeight: 9
     shootEffect: shootLarge
