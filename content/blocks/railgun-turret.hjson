@@ -1,0 +1,30 @@
+type: baseTurret
+name: Railgun
+description: A long range single-shot turret.
+health: 700
+size: 4
+reload: 12
+range: 5000
+ammoUseEffect: shellEjectLarge
+inaccuracy: 0
+rotateSpeed: 3
+ammo: {
+  diamond: {
+    speed: 5
+    damage: 4000
+    bulletWidth: 5
+    bulletHeight: 9
+    shootEffect: shootLarge
+    shootSmoke: shootLargeSmoke
+    ammoMultiplier: 1
+    }
+  }
+requirments: [
+  diamond/100
+  lead/200
+  copper/200
+  silicon/150
+  graphite/150
+]
+category: turret
+research: duo
