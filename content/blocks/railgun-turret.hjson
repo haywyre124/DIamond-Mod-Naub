@@ -1,4 +1,4 @@
-type: itemTurret
+type: ItemTurret
 name: Railgun
 description: A long range single-shot turret.
 health: 700
