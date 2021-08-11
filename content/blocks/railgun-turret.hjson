@@ -10,7 +10,6 @@ recoilAmount: 4
 shots: 1
 reload: 12
 range: 5000
-ammoUseEffect: shellEjectLarge
 inaccuracy: 0
 rotateSpeed: 3
 ammo: {
