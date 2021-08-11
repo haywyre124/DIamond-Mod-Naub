@@ -1,8 +1,13 @@
-type: baseTurret
+type: turret
 name: Railgun
 description: A long range single-shot turret.
 health: 700
 size: 4
+targetAir: true
+targetGround: true
+shootShake: 4
+recoilAmount: 4
+shots: 1
 reload: 12
 range: 5000
 ammoUseEffect: shellEjectLarge
