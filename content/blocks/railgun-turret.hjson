@@ -1,21 +1,19 @@
-type: ItemTurret
+type: ArtilleryTurret
 name: Railgun
 description: A long range single-shot turret.
 health: 700
 size: 4
+chargeTime: 15
+chargeEffect: overdriven
 targetAir: true
 targetGround: true
-shootShake: 4
-recoilAmount: 4
 shots: 1
 reload: 12
 range: 675
-ammoPerShot: 3
-buildVisibility: true
 inaccuracy: 0
 rotateSpeed: 3
 ammo: {
-  diamond: {
+  Copper: {
     speed: 5
     damage: 1250
     bulletWidth: 5
@@ -26,7 +24,6 @@ ammo: {
     }
   }
 requirments: [
-  diamond/100
   lead/200
   copper/200
   silicon/150
